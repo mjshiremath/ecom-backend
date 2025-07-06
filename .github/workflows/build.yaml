@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-push:
     runs-on: self-hosted
+    environment: DEV
     env:
       AWS_REGION: "us-east-1"
       AWS_ACCOUNT_ID: 160071257600
